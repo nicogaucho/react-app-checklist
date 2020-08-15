@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 3em;
+    width: 70%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+input, textarea, button, p,  div, section, article, select {
+    display: block;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    margin: 0.6em;
+} 
+
+button {
+    background-color: goldenrod;
+}
+
+input[type="checkbox"] {
+    font-size: 5rem;
+    border-radius: 5cm;
+
+}
+
+.done {
+    text-decoration: line-through;
+}
