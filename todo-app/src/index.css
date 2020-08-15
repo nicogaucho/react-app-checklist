@@ -1,9 +1,9 @@
 body {
     font-family: sans-serif;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    font-size: 3em;
-    width: 70%;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    font-size: 5em;
+    width: 80%;
     margin: 0 auto;
     background-color: gray;
 }
@@ -20,11 +20,11 @@ button {
     background-color: goldenrod;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
     font-size: 5rem;
     border-radius: 5cm;
 
-}
+} */
 
 .done {
     text-decoration: line-through;

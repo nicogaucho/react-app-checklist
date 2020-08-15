@@ -65,16 +65,17 @@ const App = () => {
   return (
     <div>
         <form onSubmit={formSubmitted}>
-          <label htmlFor="newTodo">Enter a Todo : </label>
+          <label htmlFor="newTodo">Ingresar un Todo : </label>
           <input 
             id="newTodo"
             name="newTodo"
             value={newTodo} 
             onChange={onNewTodoChange}>
           </input>
-        <button>Add Todo</button>
+        <button>Agregar Todo</button>
         </form>
-        <button onClick={markAllDone}>Mark all Done</button>
+        <button onClick={markAllDone}>
+          Marcar ToDo Hecho</button>
         <ul>
           {todos.map((todo, index) => (
             <li key={todo.id}>
@@ -85,7 +86,7 @@ const App = () => {
               >
               </input>
               <span className={todo.done ? 'done' : ''}>{todo.content}</span>
-              <button onClick={removeTodo(todo)}>Remove Todo</button>
+              <button onClick={removeTodo(todo)}>Quitar Todo</button>
             </li>
           ))}
         </ul>
